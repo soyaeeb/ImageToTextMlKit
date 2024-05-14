@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77297118592",
+    "project_id": "mlkit-888af",
+    "storage_bucket": "mlkit-888af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77297118592:android:79c6c0e14d5683db496565",
+        "android_client_info": {
+          "package_name": "co.jatri.imagetotextmlkit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzxuuAGANjk3EGEZiHtM66Y8uQLQ5H0QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

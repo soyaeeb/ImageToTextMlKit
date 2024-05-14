@@ -1,5 +1,6 @@
 [versions]
 agp = "8.4.0"
+firebaseBomVersion = "33.0.0"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
 junit = "4.13.2"
@@ -13,11 +14,12 @@ constraintlayout = "2.1.4"
 cameraXCameraView = "1.3.3"
 cameraXCameraLifecycle = "1.3.3"
 cameraXCamera2 = "1.3.3"
-firebaseMlKit = "24.0.3"
-
+firebaseMlKit = "24.1.0"
+playServicesVision = "20.1.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBomVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -29,6 +31,8 @@ camera-ax-view = { group = "androidx.camera", name = "camera-view", version.ref 
 camera-ax-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraXCameraLifecycle" }
 camera-ax-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraXCamera2" }
 firebase-ml-kit = { group = "com.google.firebase", name = "firebase-ml-vision", version.ref = "firebaseMlKit" }
+play-services-vision = { module = "com.google.android.gms:play-services-vision", version.ref = "playServicesVision" }
+
 
 
 
